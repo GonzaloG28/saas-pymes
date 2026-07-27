@@ -1,0 +1,8 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno (¡CRÍTICO!)
+.env
+.env.*
+!.env.example
+src/createTenant.js
