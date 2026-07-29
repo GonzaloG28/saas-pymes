@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { Sale } from '../models/Sale.js';
+import { Sale } from '../models/sale.js';
 import Product from '../../products/models/Product.js';
 import stockService from '../../stock/services/stockService.js';
 import { StockMovement, MOVEMENT_TYPES } from '../../stock/models/StockMovement.js';

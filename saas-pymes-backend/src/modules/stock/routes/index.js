@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { body } from 'express-validator';
 import { authorizeLevel } from '../../../core/middleware/roles.js';
 import { validate }       from '../../../core/middleware/validate.js';
-import * as stockController from '../controllers/stockController.js';
+import * as stockController from '../controllers/StockController.js';
 
 const router = Router();
 

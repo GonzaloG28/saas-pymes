@@ -1,7 +1,7 @@
 // modules/financials/services/FinancialService.js
 
 import { FinancialTransaction, TRANSACTION_TYPES } from '../models/FinancialTransaction.js';
-import { AppError } from '../../../core/errors/AppError.js';
+import { AppError } from '../../../core/errors/appError.js';
 
 class FinancialService {
 
