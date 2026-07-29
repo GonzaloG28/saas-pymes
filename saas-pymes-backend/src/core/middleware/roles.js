@@ -14,7 +14,7 @@
 //   router.get('/', authorizeLevel('staff'), controller.list)
 //   → acepta staff, admin y owner (cualquiera de igual o mayor nivel)
 
-import { AppError } from '../errors/AppError.js';
+import { AppError } from '../errors/appError.js';
 
 export const ROLES = Object.freeze({
   OWNER: 'owner',
