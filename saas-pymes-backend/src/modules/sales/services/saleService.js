@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import { Sale } from '../models/sale.js';
 import Product from '../../products/models/Product.js';
-import stockService from '../../stock/services/stockService.js';
+import stockService from '../../stock/services/StockService.js';
 import { StockMovement, MOVEMENT_TYPES } from '../../stock/models/StockMovement.js';
 import { AppError } from '../../../core/errors/appError.js';
 

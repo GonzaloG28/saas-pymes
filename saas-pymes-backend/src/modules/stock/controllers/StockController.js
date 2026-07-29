@@ -1,6 +1,6 @@
 // modules/stock/controllers/StockController.js
 
-import stockService from '../services/stockService.js';
+import stockService from '../services/StockService.js';
 
 export const registerMovement = async (req, res, next) => {
   try {
