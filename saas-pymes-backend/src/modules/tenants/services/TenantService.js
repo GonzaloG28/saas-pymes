@@ -2,7 +2,7 @@
 
 import mongoose        from 'mongoose';
 import Tenant, { TENANT_STATUS, PLAN_LIMITS } from '../models/Tenant.js';
-import { AppError }    from '../../../core/errors/appError.js';
+import { AppError }    from '../../../core/errors/AppError.js';
 
 // User se importa dinámicamente para evitar dependencia circular
 // (User referencia tenantId, Tenant no referencia User en el schema)

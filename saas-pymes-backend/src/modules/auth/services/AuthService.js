@@ -3,7 +3,7 @@ import crypto from 'crypto';
 import User   from '../models/User.js';
 import Tenant from '../../tenants/models/Tenant.js';
 import OnboardingToken from '../models/OnboardingToken.js';
-import { AppError } from '../../../core/errors/AppError.js';
+import { AppError } from '../../../core/errors/appError.js';
 
 const secret        = () => process.env.JWT_SECRET         ?? (() => { throw new Error('JWT_SECRET no configurado') })();
 const refreshSecret = () => process.env.JWT_REFRESH_SECRET ?? (() => { throw new Error('JWT_REFRESH_SECRET no configurado') })();
